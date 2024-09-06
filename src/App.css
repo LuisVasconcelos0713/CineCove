@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body{
+    background: linear-gradient(
+            180deg,
+            #1c244a,
+            #142144,
+            #142144,
+            #1c244a,
+            #142144,
+            #04142d,
+            #0b213c,
+            #1c242c,
+            #0c2444,
+            #142424
+    );
+
+  color: #fff;
+}
+
+@media (max-width: 600px){
+    .container{
+        width: 350px;
+    }
+}
+
+@media (max-width: 935px){
+    .container{
+        width: 365px;
+    }
+}
+

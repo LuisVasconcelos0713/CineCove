@@ -1,0 +1,54 @@
+.MovieCard-container a{
+    background: #f7d354;
+    border: 2px solid #f7d354;
+    border-radius: 4px;
+    color: #000;
+    padding: 0.2rem .2rem;
+    align-items: center;
+    transition: .4s;
+    text-decoration: none;
+    margin-top: 3px;
+    margin-bottom: 30px;
+}
+
+.MovieCard-container  a:hover{
+    background: transparent;
+    color: #f7d354;
+}
+
+.MovieCard-container svg{
+    color: #f7d354;
+}
+
+.MovieCard-container h3,p,img{
+    margin-bottom: 0.5rem;
+}
+
+/* TopMovies */
+
+.MovieCard-containerTopMovies a{
+    background: #f7d354;
+    border: 2px solid #f7d354;
+    border-radius: 4px;
+    color: #000;
+    padding: 1rem .5rem;
+    align-items: center;
+    transition: .4s;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.MovieCard-containerTopMovies  a:hover{
+    background: transparent;
+    color: #f7d354;
+}
+
+.MovieCard-containerTopMovies svg{
+    color: #f7d354;
+}
+
+.MovieCard-containerTopMovies h3,p,img{
+    margin-bottom: 0.5rem;
+}
+

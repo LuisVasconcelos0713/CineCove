@@ -1,0 +1,115 @@
+body{
+    background: linear-gradient(
+            180deg,
+            #1c244a,
+            #142144,
+            #1c244a,
+            #1c244a,
+            #142144,
+            #142424
+    );
+
+    color: #fff;
+}
+
+.movie-page {
+    color: #fff;
+    display: grid;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+.movie-page svg {
+    font-size: 1.5rem;
+    color: #f7d354;
+    margin-top: 12px;
+}
+
+.movie-page .movieCard {
+    text-align: center;
+}
+
+.movie-page .movieCard img,
+.movie-page .movieCard h2,
+.movie-page .movieCard p {
+    margin-bottom: 1rem;
+}
+
+.movie-page .movieCard h2 {
+    font-size: 2rem;
+}
+
+.movie-page .movieCard p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+}
+
+.tagline {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    margin-bottom: 2rem;
+}
+
+.info {
+    margin-bottom: 1.5rem;
+}
+
+.info h3 {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.description p {
+    line-height: 1.4rem;
+}
+
+
+/* Adiciona um ajuste específico para telas pequenas */
+@media (max-width: 600px) {
+    .movie-page {
+        padding: 0.5rem; /* Ajusta o padding em telas menores */
+    }
+
+    .movie-page .movieCard h2 {
+        font-size: 1.3rem; /* Reduz ainda mais o tamanho da fonte */
+    }
+
+    .movie-page .movieCard p {
+        font-size: 0.9rem; /* Ajusta o tamanho da fonte */
+    }
+
+    .tagline {
+        font-size: 1rem; /* Ajusta o tamanho da fonte */
+    }
+
+    .info h3 {
+        font-size: 1rem; /* Ajusta o tamanho da fonte */
+    }
+
+    .movieOverview{
+        line-height: 1rem; /* Ajusta a altura da linha */
+        word-break: keep-all;
+    }
+
+    .imgTitle {
+        width: 398px; /* Limita a altura máxima da imagem */
+    }
+
+
+
+}
+
+@media (max-width: 935px){
+    .imgTitle{
+        width: 412px;
+    }
+}
+
+
+
